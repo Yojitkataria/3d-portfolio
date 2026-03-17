@@ -5,23 +5,33 @@ import CTA from "../components/CTA";
 
 const projects = [
   {
+    name: "AI Resume Analyzer",
+    description:
+      "AI-powered tool that analyzes resumes against job descriptions using ATS scoring and provides actionable insights.",
+    link: "https://resume-ai-yojit.vercel.app",
+    progress: 100,
+    theme: "bg-green-100",
+  },
+  {
     name: "Portfolio Website",
     description: "A personal portfolio to showcase my work.",
-    
+    link: "https://3d-portfolio-w1z6.vercel.app", // add this
     progress: 100,
     theme: "bg-blue-100",
   },
   {
     name: "Peer-to-Peer App",
-    description: "An upcoming application focused on peer-to-peer communication.",
-    iconUrl: "/assets/p2p-icon.png",
+    description:
+      "An upcoming application focused on peer-to-peer communication.",
+    link: "#", // temporary
     progress: 45,
     theme: "bg-yellow-100",
   },
   {
     name: "Employee Management System",
-    description: "A work-in-progress system for managing employee data efficiently.",
-    iconUrl: "/assets/ems-icon.png",
+    description:
+      "A work-in-progress system for managing employee data efficiently.",
+    link: "#", // temporary
     progress: 30,
     theme: "bg-purple-100",
   },
